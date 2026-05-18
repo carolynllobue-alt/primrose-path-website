@@ -150,7 +150,14 @@ export default function PrimrosePathWebsite() {
       </header>
 
       <section className="relative flex min-h-screen items-center overflow-hidden bg-stone-950 pt-24 text-white">
-        <div className="absolute inset-0 opacity-50" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600607687644-c7171b42498f?q=80&w=2000&auto=format&fit=crop')", backgroundSize: "cover", backgroundPosition: "center" }} />
+        <div
+  className="absolute inset-0 opacity-50"
+  style={{
+    backgroundImage: "url('/images/drone-facing-east.JPG')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+/>
         <div className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/75 to-stone-950/20" />
         <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-5 py-24 md:grid-cols-[1.15fr_0.85fr]">
           <motion.div initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.7 }}>
@@ -204,8 +211,14 @@ export default function PrimrosePathWebsite() {
             </p>
           </motion.div>
           <div className="grid gap-4 sm:grid-cols-2">
-            <div className="h-80 rounded-[2rem] bg-stone-200 bg-cover bg-center shadow-xl" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1600&auto=format&fit=crop')" }} />
-            <div className="h-80 rounded-[2rem] bg-stone-200 bg-cover bg-center shadow-xl sm:mt-12" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1600&auto=format&fit=crop')" }} />
+            <div
+  className="h-80 rounded-[2rem] bg-stone-200 bg-cover bg-center shadow-xl"
+  style={{ backgroundImage: "url('/images/front-rendering.jpg')" }}
+/>
+            <div
+  className="h-80 rounded-[2rem] bg-stone-200 bg-cover bg-center shadow-xl sm:mt-12"
+  style={{ backgroundImage: "url('/images/view-back-of-home-from-canal.jpg')" }}
+/>
           </div>
         </div>
       </section>
