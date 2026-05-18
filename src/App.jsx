@@ -249,16 +249,8 @@ export default function PrimrosePathWebsite() {
 
       <section id="plans" className="bg-white py-24">
         <div className="mx-auto max-w-7xl px-5">
-          <div className="mb-10 flex flex-col justify-between gap-6 lg:flex-row lg:items-end">
-            <div className="max-w-3xl">
-              <p className="text-sm uppercase tracking-[0.35em] text-stone-500">Interactive Plans</p>
-              <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">A cleaner way to understand the approved plan set.</h2>
-              <p className="mt-5 leading-8 text-stone-700">
-                Instead of dropping the full permit set into one long PDF, the most important sheets are organized into a simple plan viewer with plain-English highlights for buyers and agents.
-              </p>
-            </div>
-          </div>
-
+          <div className="mb-6"></div>
+          
           <div className="rounded-[2.5rem] border border-stone-200 bg-stone-50 p-4 shadow-xl md:p-6">
             <div className="mb-5 flex flex-col justify-between gap-4 md:flex-row md:items-center">
               <div>
