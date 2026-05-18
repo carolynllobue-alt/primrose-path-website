@@ -10,18 +10,18 @@ const fadeUp = {
 
 const renderings = [
   { src: "/images/front-rendering.jpg", title: "Front Elevation Rendering" },
-  { src: "/images/pool-courtyard.jpg", title: "Pool Courtyard Rendering" },
-  { src: "/images/outdoor-living.jpg", title: "Covered Outdoor Living Rendering" },
-  { src: "/images/kitchen-dining.jpg", title: "Kitchen + Dining Rendering" },
-  { src: "/images/kitchen-island.jpg", title: "Kitchen Island Rendering" },
+  { src: "/images/indoor-outdoor-dining-kitchen.jpg", title: "Pool Courtyard Rendering" },
+  { src: "/images/view-back-of-home-from-canal.jpg", title: "Covered Outdoor Living Rendering" },
+  { src: "/images/diing-kitchen.jpg", title: "Kitchen + Dining Rendering" },
+  { src: "/images/kitchen.jpg", title: "Kitchen Island Rendering" },
   { src: "/images/pantry.jpg", title: "Pantry Inspiration" },
-  { src: "/images/prep-pantry.jpg", title: "Prep Pantry Inspiration" },
+  { src: "/images/pantry (2).jpg", title: "Prep Pantry Inspiration" },
 ];
 
 const droneImages = [
-  { src: "/images/drone-1.jpg", title: "Aerial View Toward Gulf" },
-  { src: "/images/drone-2.jpg", title: "Aerial View Over Canal" },
-  { src: "/images/drone-3.jpg", title: "Canal + Neighborhood Aerial" },
+  { src: "/images/drone-facing-east.JPG", title: "Aerial View Toward Gulf" },
+  { src: "/images/drone-facing-north.JPG", title: "Aerial View Over Canal" },
+  { src: "/images/drone-facing-west.JPG", title: "Canal + Neighborhood Aerial" },
 ];
 
 const planCategories = [
@@ -31,19 +31,19 @@ const planCategories = [
     description: "The clearest plans for buyers, agents, and private previews.",
     plans: [
       {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=Site+Plan",
+        src: "/plans/plans-first-floor.jpg"
         title: "Site + Drainage Plan",
         subtitle: "Lot orientation, setbacks, pool courtyard, canal edge, swales, and exterior layout.",
         highlights: ["13,533.7 SF lot", "4,300 SF building coverage", "9.00 NAVD design flood elevation", "Pool courtyard + canal-side outdoor areas"],
       },
       {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=First+Floor+Plan",
+        src: "/plans/plans-first-floor.jpg"
         title: "First Floor Plan",
         subtitle: "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living.",
         highlights: ["Main-level primary suite", "Great room opening to pool courtyard", "Hidden pantry + kitchen core", "2-car garage + storage"],
       },
       {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=Second+Floor+Plan",
+        src: "/plans/plans-second-floor.jpg"
         title: "Second Floor Plan",
         subtitle: "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments.",
         highlights: ["Three upstairs king suites", "Covered balcony", "Open-to-below connection", "Secondary laundry upstairs"],
