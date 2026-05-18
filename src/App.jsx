@@ -26,64 +26,33 @@ const droneImages = [
 
 const planCategories = [
   {
-    id: "buyer",
-    title: "Buyer-Friendly Plans",
-    description: "The clearest plans for buyers, agents, and private previews.",
+    id: "plans",
+    title: "Floor Plans",
+    description: "Interactive first and second floor plans.",
     plans: [
       {
         src: "/plans/plans-first-floor.jpg",
-        title: "Site + Drainage Plan",
-        subtitle: "Lot orientation, setbacks, pool courtyard, canal edge, swales, and exterior layout.",
-        highlights: ["13,533.7 SF lot", "4,300 SF building coverage", "9.00 NAVD design flood elevation", "Pool courtyard + canal-side outdoor areas"],
-      },
-      {
-        src: "/plans/plans-first-floor.jpg",
         title: "First Floor Plan",
-        subtitle: "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living.",
-        highlights: ["Main-level primary suite", "Great room opening to pool courtyard", "Hidden pantry + kitchen core", "2-car garage + storage"],
+        subtitle:
+          "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living.",
+        highlights: [
+          "Main-level primary suite",
+          "Great room opening to pool courtyard",
+          "Hidden pantry + kitchen core",
+          "2-car garage + storage",
+        ],
       },
       {
         src: "/plans/plans-second-floor.jpg",
         title: "Second Floor Plan",
-        subtitle: "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments.",
-        highlights: ["Three upstairs king suites", "Covered balcony", "Open-to-below connection", "Secondary laundry upstairs"],
-      },
-    ],
-  },
-  {
-    id: "reference",
-    title: "Plan Set Reference",
-    description: "Additional approved sheets for viewers who want a deeper look.",
-    plans: [
-      {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=Roof+Plan",
-        title: "Roof Plan",
-        subtitle: "Roof geometry, slopes, scuppers/drainage intent, and upper-level roof layout.",
-        highlights: ["Low-slope modern roof form", "Drainage routing", "Parapet-style massing", "Courtyard roof relationships"],
-      },
-      {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=Pool+%26+Planter+Details",
-        title: "Pool + Planter Details",
-        subtitle: "Courtyard pool, spa, sun shelf, planter, and outdoor feature detailing.",
-        highlights: ["Pool courtyard focus", "Spa + sun shelf", "Raised planter integration", "Separate pool permit noted"],
-      },
-      {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=Stair+Sections",
-        title: "Stair Sections + Details",
-        subtitle: "Stair design references, sections, railing notes, and connection details.",
-        highlights: ["Architectural stair zone", "Section details", "Modern railing intent", "Interior circulation"],
-      },
-      {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=First+Floor+Electrical",
-        title: "First Floor Electrical Plan",
-        subtitle: "Lighting, switching, fan, outlet, and first-floor electrical layout reference.",
-        highlights: ["Kitchen + great room lighting", "Outdoor living circuits", "Garage/equipment zones", "Buyer reference only"],
-      },
-      {
-        src: "https://placehold.co/1400x900/f5f5f4/1c1917?text=Second+Floor+Electrical",
-        title: "Second Floor Electrical Plan",
-        subtitle: "Upper-level lighting, switching, outlets, balcony, and suite electrical reference.",
-        highlights: ["Suite lighting layouts", "Balcony electrical", "Open-to-below lighting", "Buyer reference only"],
+        subtitle:
+          "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments.",
+        highlights: [
+          "Three upstairs king suites",
+          "Covered balcony",
+          "Open-to-below connection",
+          "Secondary laundry upstairs",
+        ],
       },
     ],
   },
@@ -287,21 +256,6 @@ export default function PrimrosePathWebsite() {
               <p className="mt-5 leading-8 text-stone-700">
                 Instead of dropping the full permit set into one long PDF, the most important sheets are organized into a simple plan viewer with plain-English highlights for buyers and agents.
               </p>
-            </div>
-            <div className="flex flex-wrap gap-3">
-              {planCategories.map((category) => (
-                <Button
-                  key={category.id}
-                  type="button"
-                  onClick={() => {
-                    setActivePlanCategory(category.id);
-                    setActivePlanIndex(0);
-                  }}
-                  className={`rounded-full px-5 ${activePlanCategory === category.id ? "bg-stone-950 text-white hover:bg-stone-800" : "bg-stone-100 text-stone-700 hover:bg-stone-200"}`}
-                >
-                  {category.title}
-                </Button>
-              ))}
             </div>
           </div>
 
