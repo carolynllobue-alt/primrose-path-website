@@ -31,19 +31,19 @@ const planCategories = [
     description: "The clearest plans for buyers, agents, and private previews.",
     plans: [
       {
-        src: "/plans/plans-first-floor.jpg"
+        src: "/plans/plans-first-floor.jpg",
         title: "Site + Drainage Plan",
         subtitle: "Lot orientation, setbacks, pool courtyard, canal edge, swales, and exterior layout.",
         highlights: ["13,533.7 SF lot", "4,300 SF building coverage", "9.00 NAVD design flood elevation", "Pool courtyard + canal-side outdoor areas"],
       },
       {
-        src: "/plans/plans-first-floor.jpg"
+        src: "/plans/plans-first-floor.jpg",
         title: "First Floor Plan",
         subtitle: "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living.",
         highlights: ["Main-level primary suite", "Great room opening to pool courtyard", "Hidden pantry + kitchen core", "2-car garage + storage"],
       },
       {
-        src: "/plans/plans-second-floor.jpg"
+        src: "/plans/plans-second-floor.jpg",
         title: "Second Floor Plan",
         subtitle: "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments.",
         highlights: ["Three upstairs king suites", "Covered balcony", "Open-to-below connection", "Secondary laundry upstairs"],
@@ -375,7 +375,7 @@ export default function PrimrosePathWebsite() {
 
       <section className="mx-auto grid max-w-7xl gap-12 px-5 py-24 lg:grid-cols-[1fr_0.9fr] lg:items-center">
         <div className="overflow-hidden rounded-[2.5rem] bg-stone-200 shadow-2xl">
-          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1600&auto=format&fit=crop" alt="Kitchen and dining rendering" className="h-[540px] w-full object-cover" />
+          <img src="/images/diing-kitchen.jpg" alt="Kitchen and dining rendering" className="h-[540px] w-full object-cover" />
         </div>
         <div>
           <p className="text-sm uppercase tracking-[0.35em] text-stone-500">Finish Direction</p>
@@ -438,7 +438,7 @@ export default function PrimrosePathWebsite() {
               <MapPin className="h-8 w-8 text-stone-700" />
               <h3 className="mt-5 text-2xl font-semibold">4857 Primrose Path</h3>
               <p className="mt-2 text-stone-600">Sarasota, FL 34242</p>
-              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="Aerial view of Primrose Path area" className="mt-6 h-64 w-full rounded-[1.5rem] object-cover" />
+              <img src="/images/drone-facing-north.JPG" alt="Aerial view of Primrose Path area" className="mt-6 h-64 w-full rounded-[1.5rem] object-cover" />
             </div>
           </div>
         </div>
