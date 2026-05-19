@@ -44,7 +44,7 @@ const plans = [
     src: "/plans/plans-first-floor.jpg",
     title: "First Floor Plan",
     subtitle:
-      "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living.",
+      "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living",
     highlights: [
       "Main-level primary suite",
       "Great room opening to pool courtyard",
@@ -56,7 +56,7 @@ const plans = [
     src: "/plans/plans-second-floor.jpg",
     title: "Second Floor Plan",
     subtitle:
-      "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments.",
+      "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments",
     highlights: [
       "Three upstairs king suites",
       "Covered balcony",
@@ -70,32 +70,32 @@ const features = [
   {
     icon: Home,
     title: "New Construction",
-    text: "A modern waterfront residence currently under construction on Siesta Key with anticipated completion in December 2026.",
+    text: "A modern waterfront residence currently under construction on Siesta Key with anticipated completion in December 2026",
   },
   {
     icon: Waves,
     title: "119' Saltwater Canal Frontage",
-    text: "Canal-front homesite with concrete seawall, water views, and quick access to the Siesta Key boating lifestyle.",
+    text: "Canal-front homesite with concrete seawall, water views, and quick access to the Siesta Key boating lifestyle",
   },
   {
     icon: BedDouble,
     title: "4 Bedrooms",
-    text: "A flexible luxury floor plan with a main-level primary suite, upstairs king suites, and generous guest accommodations.",
+    text: "A flexible luxury floor plan with a main-level primary suite, upstairs king suites, and generous guest accommodations",
   },
   {
     icon: Bath,
     title: "4 Baths + 2 Powder Baths",
-    text: "Thoughtfully planned bath count for owners, guests, pool use, and entertaining.",
+    text: "Thoughtfully planned bath count for owners, guests, pool use, and entertaining",
   },
   {
     icon: Ruler,
     title: "3,935 Heated Sq. Ft.",
-    text: "Approximately 5,604 total square feet with elevated indoor-outdoor living and large covered areas.",
+    text: "Approximately 5,604 total square feet with elevated indoor-outdoor living and large covered areas",
   },
   {
     icon: Trees,
     title: "Private Courtyard Pool",
-    text: "Resort-inspired pool courtyard, spa, outdoor kitchen, terraces, balconies, and covered lanais.",
+    text: "Resort-inspired pool courtyard, spa, outdoor kitchen, terraces, balconies, and covered lanais",
   },
 ];
 
@@ -167,10 +167,10 @@ export default function PrimrosePathWebsite() {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.7 }}>
             <p className="mb-5 text-sm uppercase tracking-[0.45em] text-[#f3e8d6]">4857 Primrose Path · Sarasota, FL 34242</p>
             <h2 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight md:text-7xl">
-              A modern coastal waterfront estate on Siesta Key.
+              A modern coastal waterfront estate on Siesta Key
             </h2>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-[#f6f1e8]">
-              Listed at $4,795,000, Primrose Path Residence blends warm organic textures, refined contemporary design, canal-front living, and a private courtyard-style pool retreat.
+              Listed at $4,795,000, Primrose Path Residence blends warm organic textures, refined contemporary design, canal-front living, and a private courtyard-style pool retreat
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <Button asChild size="lg" className="rounded-full bg-[#f6f1e8] px-7 text-[#3e352d] hover:bg-[#e7d9c5]">
@@ -226,7 +226,7 @@ export default function PrimrosePathWebsite() {
           <div className="mb-10 flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div className="max-w-3xl">
               <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Image Gallery</p>
-              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Renderings, interiors, and aerial views.</h2>
+              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Renderings, interiors, and aerial views</h2>
             </div>
             <div className="flex items-center gap-2 rounded-full bg-[#f8f4ed] px-4 py-2 text-sm text-[#5b5147]">
               <Images className="h-4 w-4" /> Property media
@@ -260,7 +260,7 @@ export default function PrimrosePathWebsite() {
         <div className="mx-auto max-w-7xl px-5">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Property Highlights</p>
-            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Built around light, water, and easy entertaining.</h2>
+            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Built around light, water, and easy entertaining</h2>
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {features.map((item) => (
@@ -346,7 +346,7 @@ export default function PrimrosePathWebsite() {
         </div>
         <div>
           <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Finish Direction</p>
-          <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">A high-end spec package with broad luxury appeal.</h2>
+          <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">A high-end spec package with broad luxury appeal</h2>
           <div className="mt-8 grid gap-3">
             {specs.map((spec) => (
               <div key={spec} className="flex items-start gap-3 rounded-2xl bg-[#f8f4ed] p-4 shadow-sm">
@@ -365,7 +365,7 @@ export default function PrimrosePathWebsite() {
               <p className="text-sm uppercase tracking-[0.35em] text-[#d8cbb8]">Construction Progress</p>
               <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">Follow the build before completion.</h2>
               <p className="mt-6 leading-8 text-[#f6f1e8]">
-                Aerial construction photography documents the current stage of the build and the relationship between the homesite, canal, Gulf, and surrounding Siesta Key neighborhood.
+                Aerial construction photography documents the current stage of the build and the relationship between the homesite, canal, Gulf, and surrounding Siesta Key neighborhood
               </p>
             </div>
             <div className="grid gap-4">
@@ -396,9 +396,9 @@ export default function PrimrosePathWebsite() {
           <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-center">
             <div>
               <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Location</p>
-              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d]">Siesta Key convenience with private waterfront living.</h2>
+              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d]">Siesta Key convenience with private waterfront living</h2>
               <p className="mt-6 leading-8 text-[#5b5147]">
-                Located at 4857 Primrose Path, the residence places buyers on a 0.31-acre saltwater canal-front homesite near Siesta Beach, Siesta Key Village, boating, dining, and downtown Sarasota.
+                Located at 4857 Primrose Path, the residence places buyers on a 0.31-acre saltwater canal-front homesite near Siesta Beach, Siesta Key Village, boating, dining, and downtown Sarasota
               </p>
             </div>
             <div className="rounded-[2rem] bg-[#efe4d2] p-7">
