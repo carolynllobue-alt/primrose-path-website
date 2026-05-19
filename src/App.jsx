@@ -493,9 +493,9 @@ export default function PrimrosePathWebsite() {
         </form>
       </CardContent>
     </Card>
-  </div>
-</section>
-        );
+ </footer>
+    </div>
+  );
 }
       
 function Button({ children, className = "", size, asChild, type = "button", onClick }) {
