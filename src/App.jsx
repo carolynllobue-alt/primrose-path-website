@@ -403,8 +403,20 @@ export default function PrimrosePathWebsite() {
             </div>
             <div className="rounded-[2rem] bg-[#efe4d2] p-7">
               <MapPin className="h-8 w-8 text-[#6f8f8b]" />
-              <h3 className="mt-5 text-2xl font-semibold text-[#3e352d]">4857 Primrose Path</h3>
-              <p className="mt-2 text-[#5b5147]">Sarasota, FL 34242</p>
+              <a
+  href="https://maps.google.com/?q=4857+Primrose+Path+Sarasota+FL+34242"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block transition hover:opacity-80"
+>
+  <h3 className="mt-5 text-2xl font-semibold text-[#3e352d] hover:underline">
+    4857 Primrose Path
+  </h3>
+
+  <p className="mt-2 text-[#5b5147]">
+    Sarasota, FL 34242
+  </p>
+</a>
               <img src="/images/drone-facing-north.JPG" alt="Aerial view of Primrose Path area" className="mt-6 h-64 w-full rounded-[1.5rem] object-cover" />
             </div>
           </div>
