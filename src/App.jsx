@@ -429,7 +429,11 @@ export default function PrimrosePathWebsite() {
 
           <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
             <CardContent className="p-7 md:p-9">
-              <form className="grid gap-5">
+            <form
+  action="https://formspree.io/f/mojbvlkq"
+  method="POST"
+  className="grid gap-5"
+>
                 <div className="grid gap-2">
                   <label className="text-sm font-medium text-[#3e352d]">Name</label>
                   <input className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="Your name" />
