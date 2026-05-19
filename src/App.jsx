@@ -411,111 +411,90 @@ export default function PrimrosePathWebsite() {
         </div>
       </section>
 
-      <section id="inquire" className="bg-[#efe4d2] py-24">
-        <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-          <div>
-            <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Private Preview</p>
-            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Request details before completion.</h2>
-            <p className="mt-6 leading-8 text-[#5b5147]">
-              For pricing, finish details, construction timeline, broker information, or private hard-hat tour scheduling, submit an inquiry below.
-            </p>
-            <div className="mt-8 grid gap-4">
-              <ContactLine icon={DollarSign} text="$4,795,000 list price" />
-              <ContactLine icon={Phone} text="Carolyn LoBue · 847-400-7357" />
-              <ContactLine icon={Mail} text="Carolynllobue@gmail.com" />
-              <ContactLine icon={CalendarDays} text="Private previews by appointment" />
+     <section id="inquire" className="bg-[#efe4d2] py-24">
+  <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+    <div>
+      <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Private Preview</p>
+      <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">
+        Request details before completion.
+      </h2>
+      <p className="mt-6 leading-8 text-[#5b5147]">
+        For pricing, finish details, construction timeline, broker information, or private hard-hat tour scheduling, submit an inquiry below.
+      </p>
+
+      <div className="mt-8 grid gap-4">
+        <ContactLine icon={DollarSign} text="$4,795,000 list price" />
+        <ContactLine icon={Phone} text="Carolyn LoBue · 847-400-7357" />
+        <ContactLine icon={Mail} text="Carolynllobue@gmail.com" />
+        <ContactLine icon={CalendarDays} text="Private previews by appointment" />
+      </div>
+    </div>
+
+    <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
+      <CardContent className="p-7 md:p-9">
+        <form
+          action="https://formspree.io/f/mojbvlkq"
+          method="POST"
+          className="grid gap-5"
+        >
+          <div className="grid gap-2">
+            <label className="text-sm font-medium text-[#3e352d]">Name</label>
+            <input
+              name="name"
+              required
+              className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+              placeholder="Your name"
+            />
+          </div>
+
+          <div className="grid gap-2 md:grid-cols-2">
+            <div className="grid gap-2">
+              <label className="text-sm font-medium text-[#3e352d]">Email</label>
+              <input
+                name="email"
+                type="email"
+                required
+                className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+                placeholder="you@email.com"
+              />
+            </div>
+
+            <div className="grid gap-2">
+              <label className="text-sm font-medium text-[#3e352d]">Phone</label>
+              <input
+                name="phone"
+                className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+                placeholder="Phone number"
+              />
             </div>
           </div>
 
-         <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
-  <CardContent className="p-7 md:p-9">
-    <form
-      action="https://formspree.io/f/mojbvlkq"
-      method="POST"
-      className="grid gap-5"
-    >
-      <div className="grid gap-2">
-        <label className="text-sm font-medium text-[#3e352d]">
-          Name
-        </label>
-
-        <input
-          name="name"
-          required
-          className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-          placeholder="Your name"
-        />
-      </div>
-
-      <div className="grid gap-2 md:grid-cols-2">
-        <div className="grid gap-2">
-          <label className="text-sm font-medium text-[#3e352d]">
-            Email
-          </label>
-
-          <input
-            name="email"
-            type="email"
-            required
-            className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-            placeholder="you@email.com"
-          />
-        </div>
-
-        <div className="grid gap-2">
-          <label className="text-sm font-medium text-[#3e352d]">
-            Phone
-          </label>
-
-          <input
-            name="phone"
-            className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-            placeholder="Phone number"
-          />
-        </div>
-      </div>
-
-      <div className="grid gap-2">
-        <label className="text-sm font-medium text-[#3e352d]">
-          Message
-        </label>
-
-        <textarea
-          name="message"
-          required
-          className="min-h-36 rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-          placeholder="I’d like more information about Primrose Path Residence."
-        />
-      </div>
-
-      <Button
-        type="submit"
-        size="lg"
-        className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]"
-      >
-        Submit Inquiry <ArrowRight className="ml-2 h-4 w-4" />
-      </Button>
-
-      <p className="text-xs leading-5 text-[#5b5147]">
-        By submitting this form, you consent to be contacted regarding
-        Primrose Path Residence.
-      </p>
-    </form>
-  </CardContent>
-</Card>
-      <footer className="bg-[#3e352d] px-5 py-10 text-white">
-        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 md:flex-row md:items-center">
-          <div>
-            <p className="text-sm uppercase tracking-[0.35em] text-[#d8cbb8]">Primrose Path Residence</p>
-            <p className="mt-2 text-[#f6f1e8]">4857 Primrose Path · Sarasota, FL 34242</p>
+          <div className="grid gap-2">
+            <label className="text-sm font-medium text-[#3e352d]">Message</label>
+            <textarea
+              name="message"
+              required
+              className="min-h-36 rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+              placeholder="I’d like more information about Primrose Path Residence."
+            />
           </div>
-          <p className="text-sm text-[#d8cbb8]">Pre-construction marketing website concept. Replace placeholder form connection before publishing.</p>
-        </div>
-      </footer>
-    </div>
-  );
-}
 
+          <Button
+            type="submit"
+            size="lg"
+            className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]"
+          >
+            Submit Inquiry <ArrowRight className="ml-2 h-4 w-4" />
+          </Button>
+
+          <p className="text-xs leading-5 text-[#5b5147]">
+            By submitting this form, you consent to be contacted regarding Primrose Path Residence.
+          </p>
+        </form>
+      </CardContent>
+    </Card>
+  </div>
+</section>
 function Button({ children, className = "", size, asChild, type = "button", onClick }) {
   const base = "inline-flex items-center justify-center font-medium transition focus:outline-none focus:ring-4 focus:ring-[#6f8f8b]/20";
   const sizeClass = size === "lg" ? "px-6 py-3 text-base" : "px-4 py-2 text-sm";
