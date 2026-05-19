@@ -167,7 +167,7 @@ export default function PrimrosePathWebsite() {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.7 }}>
             <p className="mb-5 text-sm uppercase tracking-[0.45em] text-[#f3e8d6]">4857 Primrose Path · Sarasota, FL 34242</p>
             <h2 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight md:text-7xl">
-              A modern coastal waterfront estate on Siesta Key.
+              A modern coastal waterfront estate on Siesta Key
             </h2>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-[#f6f1e8]">
               Listed at $4,795,000, Primrose Path Residence blends warm organic textures, refined contemporary design, canal-front living, and a private courtyard-style pool retreat
