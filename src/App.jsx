@@ -84,8 +84,8 @@ const features = [
   },
   {
     icon: Bath,
-    title: "4 Baths + 2 Powder Baths",
-    text: "Thoughtfully planned bath count for owners, guests, pool use, and entertaining.",
+title: "3 Full Baths + 2 Powder Baths",
+text: "Thoughtfully designed bath layout for owners, guests, pool access, and entertaining.",
   },
   {
     icon: Ruler,
@@ -192,7 +192,7 @@ export default function PrimrosePathWebsite() {
                   <Stat label="Total Sq. Ft." value="5,604" />
                   <Stat label="Canal Frontage" value="119'" />
                   <Stat label="Bedrooms" value="4" />
-                  <Stat label="Baths" value="4/2" />
+                  <Stat label="Baths" value="3/2" />
                 </div>
                 <div className="mt-8 rounded-3xl bg-white/10 p-5">
                   <p className="text-sm leading-6 text-[#f6f1e8]">
