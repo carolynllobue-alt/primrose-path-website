@@ -37,6 +37,10 @@ const droneImages = [
   { src: "/images/drone-facing-east.JPG", title: "Aerial View Toward Gulf" },
   { src: "/images/drone-facing-north.JPG", title: "Aerial View Over Canal" },
   { src: "/images/drone-facing-west.JPG", title: "Canal + Neighborhood Aerial" },
+
+  { src: "/images/Drone First Floor N.JPG", title: "North Aerial Perspective" },
+  { src: "/images/Drone First Floor NW.JPG", title: "Northwest Aerial Perspective" },
+  { src: "/images/Drone First Floor W.JPG", title: "West Aerial Perspective" },
 ];
 
 const plans = [
