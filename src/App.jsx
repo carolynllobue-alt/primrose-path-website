@@ -427,43 +427,82 @@ export default function PrimrosePathWebsite() {
             </div>
           </div>
 
-          <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
-            <CardContent className="p-7 md:p-9">
-            <form
-  action="https://formspree.io/f/mojbvlkq"
-  method="POST"
-  className="grid gap-5"
->
-                <div className="grid gap-2">
-                  <label className="text-sm font-medium text-[#3e352d]">Name</label>
-                  <input className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="Your name" />
-                </div>
-                <div className="grid gap-2 md:grid-cols-2">
-                  <div className="grid gap-2">
-                    <label className="text-sm font-medium text-[#3e352d]">Email</label>
-                    <input className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="you@email.com" />
-                  </div>
-                  <div className="grid gap-2">
-                    <label className="text-sm font-medium text-[#3e352d]">Phone</label>
-                    <input className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="Phone number" />
-                  </div>
-                </div>
-                <div className="grid gap-2">
-                  <label className="text-sm font-medium text-[#3e352d]">Message</label>
-                  <textarea className="min-h-36 rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="I’d like more information about Primrose Path Residence." />
-                </div>
-                <Button type="button" size="lg" className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]">
-                  Submit Inquiry <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-                <p className="text-xs leading-5 text-[#5b5147]">
-                  Form is a visual placeholder. Connect to your CRM, email provider, or website platform before launch.
-                </p>
-              </form>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
+         <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
+  <CardContent className="p-7 md:p-9">
+    <form
+      action="https://formspree.io/f/YOUR_FORM_ID"
+      method="POST"
+      className="grid gap-5"
+    >
+      <div className="grid gap-2">
+        <label className="text-sm font-medium text-[#3e352d]">
+          Name
+        </label>
 
+        <input
+          name="name"
+          required
+          className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+          placeholder="Your name"
+        />
+      </div>
+
+      <div className="grid gap-2 md:grid-cols-2">
+        <div className="grid gap-2">
+          <label className="text-sm font-medium text-[#3e352d]">
+            Email
+          </label>
+
+          <input
+            name="email"
+            type="email"
+            required
+            className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+            placeholder="you@email.com"
+          />
+        </div>
+
+        <div className="grid gap-2">
+          <label className="text-sm font-medium text-[#3e352d]">
+            Phone
+          </label>
+
+          <input
+            name="phone"
+            className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+            placeholder="Phone number"
+          />
+        </div>
+      </div>
+
+      <div className="grid gap-2">
+        <label className="text-sm font-medium text-[#3e352d]">
+          Message
+        </label>
+
+        <textarea
+          name="message"
+          required
+          className="min-h-36 rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
+          placeholder="I’d like more information about Primrose Path Residence."
+        />
+      </div>
+
+      <Button
+        type="submit"
+        size="lg"
+        className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]"
+      >
+        Submit Inquiry <ArrowRight className="ml-2 h-4 w-4" />
+      </Button>
+
+      <p className="text-xs leading-5 text-[#5b5147]">
+        By submitting this form, you consent to be contacted regarding
+        Primrose Path Residence.
+      </p>
+    </form>
+  </CardContent>
+</Card>
       <footer className="bg-[#3e352d] px-5 py-10 text-white">
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 md:flex-row md:items-center">
           <div>
