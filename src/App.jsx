@@ -495,8 +495,10 @@ export default function PrimrosePathWebsite() {
     </Card>
   </div>
 </section>
+      
 function Button({ children, className = "", size, asChild, type = "button", onClick }) {
-  const base = "inline-flex items-center justify-center font-medium transition focus:outline-none focus:ring-4 focus:ring-[#6f8f8b]/20";
+  const base =
+    "inline-flex items-center justify-center font-medium transition focus:outline-none focus:ring-4 focus:ring-[#6f8f8b]/20";
   const sizeClass = size === "lg" ? "px-6 py-3 text-base" : "px-4 py-2 text-sm";
 
   if (asChild && React.isValidElement(children)) {
