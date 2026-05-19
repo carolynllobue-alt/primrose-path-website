@@ -434,7 +434,7 @@ export default function PrimrosePathWebsite() {
             <div className="mt-8 grid gap-4">
               <ContactLine icon={DollarSign} text="$4,795,000 list price" />
               <ContactLine icon={Phone} text="Carolyn LoBue · 847-400-7357" />
-              <ContactLine icon={Mail} text="Carolynllobue@gmail.com" />
+              <ContactLine icon={Mail} text="carolyn.lobue@preferredshore.com" />
               <ContactLine icon={CalendarDays} text="Private previews by appointment" />
             </div>
           </div>
