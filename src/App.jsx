@@ -430,7 +430,7 @@ export default function PrimrosePathWebsite() {
          <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
   <CardContent className="p-7 md:p-9">
     <form
-      action="https://formspree.io/f/YOUR_FORM_ID"
+      action="https://formspree.io/f/mojbvlkq"
       method="POST"
       className="grid gap-5"
     >
