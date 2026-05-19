@@ -44,7 +44,7 @@ const plans = [
     src: "/plans/plans-first-floor.jpg",
     title: "First Floor Plan",
     subtitle:
-      "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living",
+      "Main living level with garage, great room, pantry, primary suite, bonus room, pool bath, and outdoor living.",
     highlights: [
       "Main-level primary suite",
       "Great room opening to pool courtyard",
@@ -56,7 +56,7 @@ const plans = [
     src: "/plans/plans-second-floor.jpg",
     title: "Second Floor Plan",
     subtitle:
-      "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments",
+      "Upper level with three king suites, covered balcony, laundry, mechanical space, and open-to-below moments.",
     highlights: [
       "Three upstairs king suites",
       "Covered balcony",
@@ -70,32 +70,32 @@ const features = [
   {
     icon: Home,
     title: "New Construction",
-    text: "A modern waterfront residence currently under construction on Siesta Key with anticipated completion in December 2026",
+    text: "A modern waterfront residence currently under construction on Siesta Key with anticipated completion in December 2026.",
   },
   {
     icon: Waves,
     title: "119' Saltwater Canal Frontage",
-    text: "Canal-front homesite with concrete seawall, water views, and quick access to the Siesta Key boating lifestyle",
+    text: "Canal-front homesite with concrete seawall, water views, and quick access to the Siesta Key boating lifestyle.",
   },
   {
     icon: BedDouble,
     title: "4 Bedrooms",
-    text: "A flexible luxury floor plan with a main-level primary suite, upstairs king suites, and generous guest accommodations",
+    text: "A flexible luxury floor plan with a main-level primary suite, upstairs king suites, and generous guest accommodations.",
   },
   {
     icon: Bath,
     title: "4 Baths + 2 Powder Baths",
-    text: "Thoughtfully planned bath count for owners, guests, pool use, and entertaining",
+    text: "Thoughtfully planned bath count for owners, guests, pool use, and entertaining.",
   },
   {
     icon: Ruler,
     title: "3,935 Heated Sq. Ft.",
-    text: "Approximately 5,604 total square feet with elevated indoor-outdoor living and large covered areas",
+    text: "Approximately 5,604 total square feet with elevated indoor-outdoor living and large covered areas.",
   },
   {
     icon: Trees,
     title: "Private Courtyard Pool",
-    text: "Resort-inspired pool courtyard, spa, outdoor kitchen, terraces, balconies, and covered lanais",
+    text: "Resort-inspired pool courtyard, spa, outdoor kitchen, terraces, balconies, and covered lanais.",
   },
 ];
 
@@ -167,10 +167,10 @@ export default function PrimrosePathWebsite() {
           <motion.div initial="hidden" animate="visible" variants={fadeUp} transition={{ duration: 0.7 }}>
             <p className="mb-5 text-sm uppercase tracking-[0.45em] text-[#f3e8d6]">4857 Primrose Path · Sarasota, FL 34242</p>
             <h2 className="max-w-4xl text-5xl font-semibold leading-[0.98] tracking-tight md:text-7xl">
-              A modern coastal waterfront estate on Siesta Key
+              A modern coastal waterfront estate on Siesta Key.
             </h2>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-[#f6f1e8]">
-              Listed at $4,795,000, Primrose Path Residence blends warm organic textures, refined contemporary design, canal-front living, and a private courtyard-style pool retreat
+              Listed at $4,795,000, Primrose Path Residence blends warm organic textures, refined contemporary design, canal-front living, and a private courtyard-style pool retreat.
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <Button asChild size="lg" className="rounded-full bg-[#f6f1e8] px-7 text-[#3e352d] hover:bg-[#e7d9c5]">
@@ -226,7 +226,7 @@ export default function PrimrosePathWebsite() {
           <div className="mb-10 flex flex-col justify-between gap-6 md:flex-row md:items-end">
             <div className="max-w-3xl">
               <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Image Gallery</p>
-              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Renderings, interiors, and aerial views</h2>
+              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Renderings, interiors, and aerial views.</h2>
             </div>
             <div className="flex items-center gap-2 rounded-full bg-[#f8f4ed] px-4 py-2 text-sm text-[#5b5147]">
               <Images className="h-4 w-4" /> Property media
@@ -260,7 +260,7 @@ export default function PrimrosePathWebsite() {
         <div className="mx-auto max-w-7xl px-5">
           <div className="max-w-3xl">
             <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Property Highlights</p>
-            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Built around light, water, and easy entertaining</h2>
+            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Built around light, water, and easy entertaining.</h2>
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {features.map((item) => (
@@ -346,7 +346,7 @@ export default function PrimrosePathWebsite() {
         </div>
         <div>
           <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Finish Direction</p>
-          <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">A high-end spec package with broad luxury appeal</h2>
+          <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">A high-end spec package with broad luxury appeal.</h2>
           <div className="mt-8 grid gap-3">
             {specs.map((spec) => (
               <div key={spec} className="flex items-start gap-3 rounded-2xl bg-[#f8f4ed] p-4 shadow-sm">
@@ -365,7 +365,7 @@ export default function PrimrosePathWebsite() {
               <p className="text-sm uppercase tracking-[0.35em] text-[#d8cbb8]">Construction Progress</p>
               <h2 className="mt-4 text-4xl font-semibold tracking-tight md:text-5xl">Follow the build before completion.</h2>
               <p className="mt-6 leading-8 text-[#f6f1e8]">
-                Aerial construction photography documents the current stage of the build and the relationship between the homesite, canal, Gulf, and surrounding Siesta Key neighborhood
+                Aerial construction photography documents the current stage of the build and the relationship between the homesite, canal, Gulf, and surrounding Siesta Key neighborhood.
               </p>
             </div>
             <div className="grid gap-4">
@@ -396,9 +396,9 @@ export default function PrimrosePathWebsite() {
           <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-center">
             <div>
               <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Location</p>
-              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d]">Siesta Key convenience with private waterfront living</h2>
+              <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d]">Siesta Key convenience with private waterfront living.</h2>
               <p className="mt-6 leading-8 text-[#5b5147]">
-                Located at 4857 Primrose Path, the residence places buyers on a 0.31-acre saltwater canal-front homesite near Siesta Beach, Siesta Key Village, boating, dining, and downtown Sarasota
+                Located at 4857 Primrose Path, the residence places buyers on a 0.31-acre saltwater canal-front homesite near Siesta Beach, Siesta Key Village, boating, dining, and downtown Sarasota.
               </p>
             </div>
             <div className="rounded-[2rem] bg-[#efe4d2] p-7">
@@ -411,96 +411,70 @@ export default function PrimrosePathWebsite() {
         </div>
       </section>
 
-     <section id="inquire" className="bg-[#efe4d2] py-24">
-  <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
-    <div>
-      <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Private Preview</p>
-      <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">
-        Request details before completion.
-      </h2>
-      <p className="mt-6 leading-8 text-[#5b5147]">
-        For pricing, finish details, construction timeline, broker information, or private hard-hat tour scheduling, submit an inquiry below.
-      </p>
-
-      <div className="mt-8 grid gap-4">
-        <ContactLine icon={DollarSign} text="$4,795,000 list price" />
-        <ContactLine icon={Phone} text="Carolyn LoBue · 847-400-7357" />
-        <ContactLine icon={Mail} text="Carolynllobue@gmail.com" />
-        <ContactLine icon={CalendarDays} text="Private previews by appointment" />
-      </div>
-    </div>
-
-    <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
-      <CardContent className="p-7 md:p-9">
-        <form
-          action="https://formspree.io/f/mojbvlkq"
-          method="POST"
-          className="grid gap-5"
-        >
-          <div className="grid gap-2">
-            <label className="text-sm font-medium text-[#3e352d]">Name</label>
-            <input
-              name="name"
-              required
-              className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-              placeholder="Your name"
-            />
-          </div>
-
-          <div className="grid gap-2 md:grid-cols-2">
-            <div className="grid gap-2">
-              <label className="text-sm font-medium text-[#3e352d]">Email</label>
-              <input
-                name="email"
-                type="email"
-                required
-                className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-                placeholder="you@email.com"
-              />
-            </div>
-
-            <div className="grid gap-2">
-              <label className="text-sm font-medium text-[#3e352d]">Phone</label>
-              <input
-                name="phone"
-                className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-                placeholder="Phone number"
-              />
+      <section id="inquire" className="bg-[#efe4d2] py-24">
+        <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+          <div>
+            <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Private Preview</p>
+            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Request details before completion.</h2>
+            <p className="mt-6 leading-8 text-[#5b5147]">
+              For pricing, finish details, construction timeline, broker information, or private hard-hat tour scheduling, submit an inquiry below.
+            </p>
+            <div className="mt-8 grid gap-4">
+              <ContactLine icon={DollarSign} text="$4,795,000 list price" />
+              <ContactLine icon={Phone} text="Carolyn LoBue · 847-400-7357" />
+              <ContactLine icon={Mail} text="Carolynllobue@gmail.com" />
+              <ContactLine icon={CalendarDays} text="Private previews by appointment" />
             </div>
           </div>
 
-          <div className="grid gap-2">
-            <label className="text-sm font-medium text-[#3e352d]">Message</label>
-            <textarea
-              name="message"
-              required
-              className="min-h-36 rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4"
-              placeholder="I’d like more information about Primrose Path Residence."
-            />
+          <Card className="rounded-[2rem] border border-[#d8cbb8] bg-[#f8f4ed] shadow-xl">
+            <CardContent className="p-7 md:p-9">
+              <form className="grid gap-5">
+                <div className="grid gap-2">
+                  <label className="text-sm font-medium text-[#3e352d]">Name</label>
+                  <input className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="Your name" />
+                </div>
+                <div className="grid gap-2 md:grid-cols-2">
+                  <div className="grid gap-2">
+                    <label className="text-sm font-medium text-[#3e352d]">Email</label>
+                    <input className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="you@email.com" />
+                  </div>
+                  <div className="grid gap-2">
+                    <label className="text-sm font-medium text-[#3e352d]">Phone</label>
+                    <input className="rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="Phone number" />
+                  </div>
+                </div>
+                <div className="grid gap-2">
+                  <label className="text-sm font-medium text-[#3e352d]">Message</label>
+                  <textarea className="min-h-36 rounded-2xl border border-[#d8cbb8] bg-white px-4 py-3 outline-none ring-[#6f8f8b]/20 focus:ring-4" placeholder="I’d like more information about Primrose Path Residence." />
+                </div>
+                <Button type="button" size="lg" className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]">
+                  Submit Inquiry <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+                <p className="text-xs leading-5 text-[#5b5147]">
+                  Form is a visual placeholder. Connect to your CRM, email provider, or website platform before launch.
+                </p>
+              </form>
+            </CardContent>
+          </Card>
+        </div>
+      </section>
+
+      <footer className="bg-[#3e352d] px-5 py-10 text-white">
+        <div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 md:flex-row md:items-center">
+          <div>
+            <p className="text-sm uppercase tracking-[0.35em] text-[#d8cbb8]">Primrose Path Residence</p>
+            <p className="mt-2 text-[#f6f1e8]">4857 Primrose Path · Sarasota, FL 34242</p>
           </div>
-
-          <Button
-            type="submit"
-            size="lg"
-            className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]"
-          >
-            Submit Inquiry <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
-
-          <p className="text-xs leading-5 text-[#5b5147]">
-            By submitting this form, you consent to be contacted regarding Primrose Path Residence.
-          </p>
-        </form>
-      </CardContent>
-    </Card>
- </footer>
+          <p className="text-sm text-[#d8cbb8]">Pre-construction marketing website concept. Replace placeholder form connection before publishing.</p>
+        </div>
+      </footer>
     </div>
   );
 }
-      
+
 function Button({ children, className = "", size, asChild, type = "button", onClick }) {
-  const base =
-    "inline-flex items-center justify-center font-medium transition focus:outline-none focus:ring-4 focus:ring-[#6f8f8b]/20";
+  const base = "inline-flex items-center justify-center font-medium transition focus:outline-none focus:ring-4 focus:ring-[#6f8f8b]/20";
   const sizeClass = size === "lg" ? "px-6 py-3 text-base" : "px-4 py-2 text-sm";
 
   if (asChild && React.isValidElement(children)) {
