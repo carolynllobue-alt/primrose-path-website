@@ -431,7 +431,7 @@ export default function PrimrosePathWebsite() {
         <div className="mx-auto grid max-w-7xl gap-12 px-5 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
             <p className="text-sm uppercase tracking-[0.35em] text-[#6f8f8b]">Private Preview</p>
-            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Request details before completion.</h2>
+            <h2 className="mt-4 text-4xl font-semibold tracking-tight text-[#3e352d] md:text-5xl">Request details before completion</h2>
             <p className="mt-6 leading-8 text-[#5b5147]">
               For pricing, finish details, construction timeline, broker information, or private hard-hat tour scheduling, submit an inquiry below.
             </p>
