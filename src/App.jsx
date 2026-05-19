@@ -89,7 +89,7 @@ text: "Thoughtfully designed bath layout for owners, guests, pool access, and en
   },
   {
     icon: Ruler,
-    title: "3,935 Heated Sq. Ft.",
+    title: "3,935 A/C Sq. Ft.",
     text: "Approximately 5,604 total square feet with elevated indoor-outdoor living and large covered areas.",
   },
   {
@@ -188,7 +188,7 @@ export default function PrimrosePathWebsite() {
                 <p className="text-sm uppercase tracking-[0.32em] text-[#f3e8d6]">Pre-Construction Offering</p>
                 <div className="mt-8 grid grid-cols-2 gap-5">
                   <Stat label="List Price" value="$4.795M" />
-                  <Stat label="Heated Sq. Ft." value="3,935" />
+                  <Stat label="A/C Sq. Ft." value="3,935" />
                   <Stat label="Total Sq. Ft." value="5,604" />
                   <Stat label="Canal Frontage" value="119'" />
                   <Stat label="Bedrooms" value="4" />
