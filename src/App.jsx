@@ -503,7 +503,7 @@ export default function PrimrosePathWebsite() {
             <p className="text-sm uppercase tracking-[0.35em] text-[#d8cbb8]">Primrose Path Residence</p>
             <p className="mt-2 text-[#f6f1e8]">4857 Primrose Path · Sarasota, FL 34242</p>
           </div>
-          <p className="text-sm text-[#d8cbb8]">Pre-construction marketing website concept. Replace placeholder form connection before publishing.</p>
+          <p className="text-sm text-[#d8cbb8]"> Presented by Carolyn LoBue · Preferred Shore Real Estate </p>
         </div>
       </footer>
     </div>
