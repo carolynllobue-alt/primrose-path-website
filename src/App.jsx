@@ -508,6 +508,18 @@ export default function PrimrosePathWebsite() {
             <p className="mt-2 text-[#f6f1e8]">4857 Primrose Path · Sarasota, FL 34242</p>
           </div>
           <p className="text-sm text-[#d8cbb8]"> Presented by Carolyn LoBue · Preferred Shore Real Estate </p>
+          <div style={{ display: "flex", justifyContent: "flex-end", marginTop: "24px" }}>
+  <img
+    src="/preferred-shore-siesta.png"
+    alt="Preferred Shore"
+    style={{
+      width: "280px",
+      height: "auto",
+      objectFit: "contain",
+      opacity: 0.9,
+    }}
+  />
+</div>
         </div>
       </footer>
     </div>
