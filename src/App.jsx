@@ -134,20 +134,39 @@ export default function PrimrosePathWebsite() {
   return (
     <div className="min-h-screen bg-[#f6f1e8] text-[#3e352d]">
       <header className="fixed top-0 z-50 w-full border-b border-white/30 bg-[#e7d9c5]/80 text-[#3e352d] backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-          <div>
-            <p className="text-xs uppercase tracking-[0.35em] text-[#6f8f8b]">Siesta Key Waterfront</p>
-            <h1 className="text-lg font-semibold tracking-wide">Primrose Path Residence</h1>
-          </div>
-          <nav className="hidden items-center gap-7 text-sm text-[#5b5147] md:flex">
-            <a href="#vision" className="hover:text-[#3e352d]">Vision</a>
-            <a href="#gallery" className="hover:text-[#3e352d]">Gallery</a>
-            <a href="#plans" className="hover:text-[#3e352d]">Plans</a>
-            <a href="#progress" className="hover:text-[#3e352d]">Progress</a>
-            <a href="#inquire" className="hover:text-[#3e352d]">Inquire</a>
-          </nav>
-          <Button asChild className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]">
-            <a href="#inquire">Request Info</a>
+  <div className="mx-auto flex max-w-7xl items-center justify-between gap-5 px-5 py-4">
+    <div>
+      <p className="text-xs uppercase tracking-[0.35em] text-[#6f8f8b]">Siesta Key Waterfront</p>
+      <h1 className="text-lg font-semibold tracking-wide">Primrose Path Residence</h1>
+    </div>
+
+    <div className="hidden items-center gap-7 text-sm text-[#5b5147] md:flex">
+      <nav className="flex items-center gap-7">
+        <a href="#vision" className="hover:text-[#3e352d]">Vision</a>
+        <a href="#gallery" className="hover:text-[#3e352d]">Gallery</a>
+        <a href="#plans" className="hover:text-[#3e352d]">Plans</a>
+        <a href="#progress" className="hover:text-[#3e352d]">Progress</a>
+        <a href="#inquire" className="hover:text-[#3e352d]">Inquire</a>
+      </nav>
+
+      <Button asChild className="rounded-full bg-[#3e352d] text-white hover:bg-[#5b5147]">
+        <a href="#inquire">Request Info</a>
+      </Button>
+
+      <img
+        src="/preferred-shore-siesta.png"
+        alt="Preferred Shore"
+        className="hidden lg:block"
+        style={{
+          width: "150px",
+          height: "auto",
+          objectFit: "contain",
+          opacity: 0.95,
+        }}
+      />
+    </div>
+  </div>
+</header>
           </Button>
         </div>
       </header>
