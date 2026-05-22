@@ -510,7 +510,7 @@ export default function PrimrosePathWebsite() {
           <p className="text-sm text-[#d8cbb8]"> Presented by Carolyn LoBue · Preferred Shore Real Estate </p>
           <div style={{ display: "flex", justifyContent: "flex-end", marginTop: "24px" }}>
 <img
-  src="/images/preferred-shore-siesta.png"
+  src="/preferred-shore-siesta.png"
   alt="Preferred Shore"
   style={{
     width: "260px",
