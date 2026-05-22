@@ -167,9 +167,6 @@ export default function PrimrosePathWebsite() {
     </div>
   </div>
 </header>
-          </Button>
-        </div>
-      </header>
 
       <section className="relative flex min-h-screen items-center overflow-hidden bg-[#3e352d] pt-24 text-white">
         <video
