@@ -116,8 +116,8 @@ const specs = [
 
 const progress = [
   { phase: "Design + Engineering", status: "Complete" },
-  { phase: "Foundation + Masonry", status: "In Progress" },
-  { phase: "Framing + Trusses", status: "Upcoming" },
+  { phase: "Foundation + Masonry", status: "Complete" },
+  { phase: "Framing + Trusses", status: "Ongoing" },
   { phase: "Windows + Exterior Dry-In", status: "Upcoming" },
   { phase: "Interior Finishes", status: "Coming Next" },
 ];
@@ -173,7 +173,7 @@ export default function PrimrosePathWebsite() {
           loop
           playsInline
           className="absolute inset-0 h-full w-full object-cover opacity-70"
-          poster="/images/drone-facing-east.JPG"
+          poster="/images/Drone Above.JPG"
         >
           <source
             src="https://cdn.coverr.co/videos/coverr-aerial-view-of-tropical-coastline-1560678661486/1080p.mp4"
