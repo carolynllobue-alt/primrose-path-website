@@ -34,11 +34,11 @@ const renderings = [
 ];
 
 const droneImages = [
-  { src: "/images/Drone North.JPG", title: "Aerial View North" },
+  { src: "/images/Drone North.jpg", title: "Aerial View North" },
   { src: "/images/Drone Above.JPG", title: "Aerial View Over Canal" },
-  { src: "/images/Drone West.JPG", title: "Drone View West" },
+  { src: "/images/Drone West.jpg", title: "Drone View West" },
 
-  { src: "/images/Drone South.JPG", title: "Aerial Perspective South" },
+  { src: "/images/Drone South.jpg", title: "Aerial Perspective South" },
   ];
 
 const plans = [
